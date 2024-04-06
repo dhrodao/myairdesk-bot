@@ -1,0 +1,11 @@
+[package]
+name = "myairdesk-scrapper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.37"
+tokio = { version = "1", features = ["full"] }
+
+[dependencies.myairdesk_lib]
+path = "src/client"
